@@ -108,7 +108,7 @@
                 margin: 0 30px;
             }
     
-            button.prev-slide {
+            button.prev-slide-1 {
                 position: absolute;
                 top: 50%;
                 left: 1.5%;
@@ -117,7 +117,7 @@
                 z-index: 999;
             }
     
-            button.next-slide {
+            button.next-slide-1 {
                 position: absolute;
                 position: absolute;
                 top: 50%;
@@ -156,7 +156,7 @@
                 margin: 0 30px;
             }
     
-            button.prev-slide {
+            button.prev-slide-2 {
                 position: absolute;
                 top: 50%;
                 left: 1.5%;
@@ -165,7 +165,7 @@
                 z-index: 999;
             }
     
-            button.next-slide {
+            button.next-slide-2 {
                 position: absolute;
                 position: absolute;
                 top: 50%;
@@ -182,7 +182,9 @@
                 .img-customize {
                     height: 180px;
                     cursor: pointer;
-    
+                    img {
+                        height: 80%;
+                    }
                     .style-section {
     
                         font-weight: 600;
@@ -204,7 +206,7 @@
                 margin: 0 30px;
             }
     
-            button.prev-slide {
+            button.prev-slide-3 {
                 position: absolute;
                 top: 50%;
                 left: 1.5%;
@@ -213,7 +215,7 @@
                 z-index: 999;
             }
     
-            button.next-slide {
+            button.next-slide-3 {
                 position: absolute;
                 position: absolute;
                 top: 50%;
@@ -231,12 +233,14 @@
                     height: 180px;
                     overflow: hidden;
                     cursor: pointer;
-    
+                    img{
+                        height: 83%;
+                    }
                     .style-section {
     
                         font-weight: 600;
                         color: #fff;
-                        font-size: 20px;
+                        font-size: 18px;
                     }
                 }
             }
